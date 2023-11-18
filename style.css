@@ -1,3 +1,38 @@
-h1 {
-    color: red;
-  }
+nav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px; /* パディングを増やすことで領域を拡大 */
+  margin: 0 10px; /* 必要に応じてマージンを調整 */
+  text-decoration: none;
+}
+
+
+/* Clearfix for the float */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
