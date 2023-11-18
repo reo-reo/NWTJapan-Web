@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8" />
+  <title>にわちJAPAN公式ホームページ</title>
+ </head>
+ <body>
+  <h1>にわちJAPAN</h1>
+   <nav>
+    <ul>
+     <li><a href="NEWS.html">NEWS</a></li>
+     <li><a href="MEMBER.html">Member</a></li>
+     <li><a href="LIVE.html">Live</a></li>
+     <li><a href="STORE.html">Store</a></li>
+    </ul>
+   </nav>
+  <section>
+   <h2>お問合せ</h2>
+    <form action>
+     <p>名前:<input type="text"></p>
+     <p>性別:<input type="radio" value="男">男
+　　　　　<input type="radio" value="女">女</p>
+     <p>メッセージ:<textarea placeholder="メッセージを入力"></textarea></p>
+　　</form>
+ </body>
+</html>
